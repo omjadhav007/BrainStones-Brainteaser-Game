@@ -1,0 +1,9 @@
+1. The game consists of 10 boxes, with 5 boxes located on each player's side.
+2. Initially, each of the 10 boxes contains 6 stones, totaling 60 stones in the entire game setup.
+3. During a player's turn, they have the option to pick up stones from any box on their side of the board.
+4. After picking up stones, the player must select either the left or right direction and start placing one stone at a time in consecutive boxes in that chosen direction.
+5. If the picked-up stones are depleted and the box next to the last placed stone is empty, the number of stones in the following box is added to the scoring player's score.
+6. If the picked-up stones are exhausted and the box adjacent to the last placed stone is not empty, the player must collect stones from that box and repeat the placing process.
+7. If, during the game, any box contains 4 stones, that box becomes empty, and the player to whom the box belongs has their score increased by 4.
+8. The game concludes when all the boxes are empty.
+9. The player with the highest score at the end of the game is declared the winner.

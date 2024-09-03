@@ -1,0 +1,14 @@
+.list{
+    font-size: 30px;
+    background-color:rgb(255, 221, 0);
+    margin: 25px 100px;
+    padding: 20px 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 100px;
+    margin: 40px 50px 0px 150px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

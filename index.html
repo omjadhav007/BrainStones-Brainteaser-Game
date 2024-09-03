@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainStones</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Brain Stones</h1>
+    <audio id="bgMusic" loop>
+        <source src="Bgm/SubwaySurfers.mp3" type="audio/mpeg">
+    </audio>
+    <div>
+        <div class="points aPoint">
+            <h3>Player A</h3>
+            <h3>Score</h3>
+            <p class="aScore"></p>
+            <div class="aBase">
+                <p class="aPlaying">Playing...</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="playerA">
+                <h3>Player A</h3>
+                <div class="row">
+                    <button id="0" class="bunch a">6</button>
+                    <button id="1" class="bunch a">6</button>
+                    <button id="2" class="bunch a">6</button>
+                    <button id="3" class="bunch a">6</button>
+                    <button id="4" class="bunch a">6</button>
+                </div>
+            </div>
+            <div class="playerB">
+                <div class="row">
+                    <button id="9" class="bunch b">6</button>
+                    <button id="8" class="bunch b">6</button>
+                    <button id="7" class="bunch b">6</button>
+                    <button id="6" class="bunch b">6</button>
+                    <button id="5" class="bunch b">6</button>
+                </div>
+                <h3>Player B</h3>
+            </div>
+        </div>
+        <div class="points bPoint">
+            <h3>Player B</h3>
+            <h3>Score</h3>
+            <p class="bScore"></p>
+            <div class="bBase">
+                <p class="bPlaying">Playing...</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="instruction"></h3>
+        <button class="butt left">⬅️</button>
+        <button class="butt start">Start</button>
+        <button class="butt right">➡️</button>
+    </div>
+    <div>
+        <button class="butt gameType">Change Game</button>
+        <a class="butt rules" href="rules.html" target="_blank">Rules</a>
+        <button class="butt fast">Normal Speed</button>
+    </div>
+
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

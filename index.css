@@ -1,0 +1,132 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    padding: 0;
+    font-family: candara;
+    margin: 0 0 0.3rem 0;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: calisto mt;
+    margin: 8px 0;
+}
+
+.points{
+    display: inline-block;
+    border: 3px solid black;
+    background-color: rgb(247, 214, 169);
+    border-radius: 10px;
+    padding:  10px;
+    position: relative;
+    bottom: 100px;
+    margin: 10px;
+}
+.box{
+    display: inline-block;
+}
+.bunch{
+    display: inline-block;
+    height: 1.8cm;
+    width: 1.8cm;
+    margin: 5px;
+    font-size: 1.7rem;
+    background-color: rgb(0, 192, 245);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.bunch:hover{
+    cursor: pointer;
+}
+.butt{
+    font-size: 1.5rem;
+    font-family: calibri;
+    margin: 8px 5px;
+    background-color: rgb(248, 219, 28);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:0.2rem 0.5rem;
+}
+.rules{
+    text-decoration: none;
+    color: black;
+    font-family: calibri;
+}
+/* .right{
+    font-size: 2rem;
+    margin: 10px;
+    background-color: rgb(248, 219, 28);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:0.5rem 1rem;
+}
+.start{
+    font-size: 2rem;
+    margin: 10px;
+    background-color: rgb(248, 219, 28);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:0.5rem 1rem;
+} */
+.butt:hover{
+    cursor: pointer;
+    background-color: rgb(189, 164, 1);
+}
+/* .right:hover{
+    cursor: pointer;
+    background-color: rgb(189, 164, 1);
+}
+.left:hover{
+    cursor: pointer;
+    background-color: rgb(189, 164, 1);
+} */
+.playerA{
+    border: 3px solid black;
+    background-color: rgb(247, 214, 169);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.playerB{
+    border: 3px solid black;
+    background-color: rgb(247, 214, 169);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.aScore,.bScore{
+    font-size: 2rem;
+    margin: 0.4rem 1rem;
+}
+.grBg{
+    background-color: rgb(35, 250, 2);
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+.shadow{
+    box-shadow: 0 4px 3px 0;
+    background-color: aqua;
+}
+.aPlaying{
+    font-size: 1.2rem;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    background-color: rgb(95, 245, 72);
+    margin: 3px;
+    padding: 3px;
+}
+.bPlaying{
+    font-size: 1.2rem;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    background-color: rgb(95, 245, 72);
+    margin: 3px;
+    padding: 3px;
+}
+.bigShadow{
+    box-shadow: 4px 4px 4px 4px rgb(69, 69, 69);
+    background-color: rgb(247, 239, 228);
+    border: 3px solid black;
+}

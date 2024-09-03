@@ -1,0 +1,10 @@
+1) There are 10 boxes, 5 on both player's side 
+2) Initially, there are 6 stones in each box. Means total no o of stones are 60.
+3) At the time of player's turn, player can pick up stones in any box of his side. 
+4) Then player can select either left or right side and start putting down one of the picked up stones by moving in that direction one by one.
+5) If picked up stones are finished and box next to to last put stone is empty then number of stones in the box next to that empty box is added to score of playing player.
+6) If picked up stones are finished and box next to last put stone is not empty then player has to pick up stones in that box and repeat the same process.
+7) While playing if any box has 4 stones then that box become empty and that box belongs to which player's side, that player's score is increased by 4.
+8) Game will end when all boxes will be empty.
+9) Player with max score will be winner of the game.
+https://omjadhav007.github.io/BrainStones-Web
